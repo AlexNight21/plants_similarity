@@ -17,12 +17,10 @@
 ## Развертывание проекта
 
 1. Загрузка датасета:
-
-1.1 загрузить датасет по [ссылке](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition/data); 
-1.2 распаковать; 
-1.3 зайти в папку "archive" и вырезать или скопировать папку "flowers"; 
-1.4 вставить по пути "./data/" и переименовать в "dataset";
-
+    1.1 загрузить датасет по [ссылке](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition/data); 
+    1.2 распаковать; 
+    1.3 зайти в папку "archive" и вырезать или скопировать папку "flowers"; 
+    1.4 вставить по пути "./data/" и переименовать в "dataset";
 2. Собрать докер образ и запустить контейнер с проектом:
 <pre>docker compose up -d</pre>
 3. Перейти по ссылке:
