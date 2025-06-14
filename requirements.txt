@@ -1,6 +1,6 @@
 numpy==1.26.0
-torch==2.1.0
-torchvision==0.16.0
-opencv-python==4.11.0.86
+torch @ https://download.pytorch.org/whl/cpu/torch-2.1.0%2Bcpu-cp310-cp310-linux_x86_64.whl
+torchvision @ https://download.pytorch.org/whl/cpu/torchvision-0.16.0%2Bcpu-cp310-cp310-linux_x86_64.whl
+opencv-python==4.11.0.86 
 matplotlib==3.10.3
 streamlit==1.45.1

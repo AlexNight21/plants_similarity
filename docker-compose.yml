@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  main_app:
+    build: .
+    container_name: main_app
+    ports:
+      - 8501:8501
+    command: "streamlit run app/main.py"
